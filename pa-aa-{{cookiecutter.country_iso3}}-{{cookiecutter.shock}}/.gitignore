@@ -1,0 +1,53 @@
+#Data
+indicators/food_insecurity/Data/FewsNetRaw/*
+analyses/*/Data/WorldPop/*
+analyses/*/Data/GlobalIPC
+IRI/
+icpac/
+nmme/
+copernicus/
+chirps/
+analyses/bangladesh/data/*
+analyses/bangladesh/results/*/archive/*
+analyses/bangladesh/trigger_development/processed_data/*
+
+#Local experiments
+Experiments
+analyses/bangladesh/*/scratch/*
+
+# IDEs
+.idea/*
+.vscode/*
+
+#Mac DSStore
+.DS_Store
+
+#Mac unzipping stuff
+__MACOSX/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+#we are only committing .md files, if a .ipynb is needed on the repo you can add it with the -f flag
+.ipynb
+
+# R files
+.Rproj.user
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+
+# pycharm
+.idea
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+#nbautoexport
+.nbautoexport
+
+venv/
+
+# Logs
+geckodriver*.log
