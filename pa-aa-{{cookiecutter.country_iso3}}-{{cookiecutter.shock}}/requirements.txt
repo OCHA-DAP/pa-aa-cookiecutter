@@ -1,1 +1,4 @@
+{%- if cookiecutter.notebooks_in_analysis  == "y" %}
+jupytext==1.11.1
+{%- endif %}
 pre-commit==2.15.0

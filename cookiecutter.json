@@ -13,5 +13,9 @@
         "under revision",
         "endorsed",
         "on hold"
+    ],
+    "notebooks_in_analysis": [
+        "y",
+        "n"
     ]
 }

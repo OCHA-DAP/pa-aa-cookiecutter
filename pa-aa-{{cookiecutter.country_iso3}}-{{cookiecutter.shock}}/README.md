@@ -63,5 +63,10 @@ All code is formatted according to black and flake8 guidelines. The repo is set-
 ```
 pre-commit install
 ```
+{%- if cookiecutter.notebooks_in_analysis  == "y" %}
+
+It is also **strongly** recommended to use `jupytext` to convert all Jupyter notebooks (`.ipynb`) to Markdown files (`.md`) before committing them into version control. This will make for cleaner diffs (and thus easier code reviews) and will ensure that cell outputs aren't committed to the repo (which might be problematic if working with sensitive data).
+ 
+{%- endif %}
 
 For baseline datasets, you might also need to sync [this](https://drive.google.com/drive/u/3/folders/1RVpnCUpxHQ-jokV_27xLRqOs6qR_8mqQ) directory from Google drive to your local machine. Create an environment variable called `AA_DATA_DIR` that points to this directory.
