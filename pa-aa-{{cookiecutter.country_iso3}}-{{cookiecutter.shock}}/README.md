@@ -58,4 +58,10 @@ Create a new virtual environment and install the requirements with
 pip install -r requirements.txt
 ```
 
+All code is formatted according to black and flake8 guidelines. The repo is set-up to use pre-commit. Before you start developing in this repository, you will need to run 
+
+```
+pre-commit install
+```
+
 For baseline datasets, you might also need to sync [this](https://drive.google.com/drive/u/3/folders/1RVpnCUpxHQ-jokV_27xLRqOs6qR_8mqQ) directory from Google drive to your local machine. Create an environment variable called `AA_DATA_DIR` that points to this directory.
