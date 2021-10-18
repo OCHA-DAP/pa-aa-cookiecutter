@@ -3,7 +3,7 @@ title: '<img src="https://drive.google.com/uc?id=118y5T73-iSUZoAMtoJGddxq9QzD_GD
 pagetitle: {{cookiecutter.country_iso3}}' - Anticipatory Action' # Change title to something appropriate for your work
 output:
   html_document:
-    css: style.css 
+    css: style.css
     includes:
       in_header: header.html
     df_print: paged
@@ -17,7 +17,7 @@ editor_options:
   chunk_output_type: inline
 ---
 
-<br> 
+<br>
 <br>
 <br>
 
@@ -40,7 +40,6 @@ Use this basic template to get started with creating an R Markdown file to docum
 
 ```{r maps, dpi=300, include=T, message= FALSE, warning=FALSE, fig.height=8, fig.align="center"}
 
-# Put a figure in here, for example 
+# Put a figure in here, for example
 
 ```
-
