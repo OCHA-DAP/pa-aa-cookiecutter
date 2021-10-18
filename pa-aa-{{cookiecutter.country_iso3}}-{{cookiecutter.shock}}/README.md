@@ -68,6 +68,15 @@ Before you start developing in this repository, you will need to run
 pre-commit install
 ```
 
+The `markdownlint` hook will require [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+to be installed on your computer.
+
+You can run all hooks against all your files using
+
+```
+pre-commit run --all-files
+```
+
 {%- if cookiecutter.notebooks_in_analysis  == "y" %}
 
 It is also **strongly** recommended to use `jupytext`
