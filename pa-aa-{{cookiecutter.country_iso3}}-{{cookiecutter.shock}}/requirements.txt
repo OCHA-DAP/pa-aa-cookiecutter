@@ -1,5 +1,5 @@
 {%- if cookiecutter.notebooks_in_analysis  == "y" %}
+jupyter==1.0.0
 jupytext==1.11.1
-notebook==6.4.4
 {%- endif %}
 pre-commit==2.15.0
