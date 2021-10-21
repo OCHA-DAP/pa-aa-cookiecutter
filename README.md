@@ -10,13 +10,13 @@ such as a basic README and `.Rmd` docs.
 
 To use this cookiecutter, first install `cookiecutter`:
 
-```
+```shell
 pip install cookiecutter
 ```
 
 Then, generate a template from this repo:
 
-```
+```shell
 cookiecutter https://github.com/OCHA-DAP/pa-aa-cookiecutter
 ```
 
@@ -36,14 +36,14 @@ You'll be prompted to fill in a number of parameters:
 To contribute to this cookiecutter, begin by creating a new virtual
 environment and installing the project dependencies.
 
-```
+```shell
 pip install -r requirements.txt
 ```
 
 This repository is set up with a number of pre-commit hooks.
 Before you start developing in this repository, you will need to run
 
-```
+```shell
 pre-commit install
 ```
 
@@ -52,6 +52,6 @@ to be installed on your computer.
 
 You can run all hooks against all your files using
 
-```
+```shell
 pre-commit run --all-files
 ```

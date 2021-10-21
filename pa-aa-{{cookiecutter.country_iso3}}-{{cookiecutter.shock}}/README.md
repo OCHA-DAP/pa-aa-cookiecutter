@@ -39,7 +39,7 @@ What is the basic process of the analysis contained within this repository?
 
 The code in this repository is organized as follows:
 
-```
+```shell
 
 ├── analysis      # Main repository of analytical work for the AA pilot
 ├── docs          # .Rmd files or other relevant documentation
@@ -56,7 +56,7 @@ The code in this repository is organized as follows:
 
 Create a new virtual environment and install the requirements with
 
-```
+```shell
 pip install -r requirements.txt
 ```
 
@@ -64,7 +64,7 @@ All code is formatted according to black and flake8 guidelines.
 The repo is set-up to use pre-commit.
 Before you start developing in this repository, you will need to run
 
-```
+```shell
 pre-commit install
 ```
 
@@ -73,7 +73,7 @@ to be installed on your computer.
 
 You can run all hooks against all your files using
 
-```
+```shell
 pre-commit run --all-files
 ```
 
