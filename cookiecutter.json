@@ -1,0 +1,21 @@
+{
+    "country_iso3": "bgd",
+    "country_name": "Bangladesh",
+    "shock": [
+        "flooding",
+        "drought",
+        "dry-spells",
+        "storms",
+        "infectious disease"
+    ],
+    "status": [
+        "under development",
+        "under revision",
+        "endorsed",
+        "on hold"
+    ],
+    "notebooks_in_analysis": [
+        "y",
+        "n"
+    ]
+}
