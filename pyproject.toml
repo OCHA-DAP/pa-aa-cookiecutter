@@ -4,3 +4,7 @@ line-length = 79
 [tool.isort]
 profile = "black"
 line_length = 79
+skip_glob = [
+    "pa-aa-{{cookiecutter.country_iso3}}-{{cookiecutter.shock}}/analysis/*",
+    "pa-aa-{{cookiecutter.country_iso3}}-{{cookiecutter.shock}}/exploration/*"
+    ]
