@@ -68,7 +68,8 @@ Before you start developing in this repository, you will need to run
 pre-commit install
 ```
 
-The `markdownlint` hook will require [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+The `markdownlint` hook will require
+[Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 to be installed on your computer.
 
 You can run all hooks against all your files using
@@ -80,13 +81,15 @@ pre-commit run --all-files
 {%- if cookiecutter.notebooks_in_analysis  == "y" %}
 
 It is also **strongly** recommended to use `jupytext`
-to convert all Jupyter notebooks (`.ipynb`) to Markdown files (`.md`)
+to convert all Jupyter notebooks (`.ipynb`) to Python percent files (`.py`)
 before committing them into version control. This will make for
-cleaner diffs (and thus easier code reviews) and will ensure that cell outputs aren't
-committed to the repo (which might be problematic if working with sensitive data).
+cleaner diffs (and thus easier code reviews), allow linting,
+and will ensure that cell outputs aren't committed to the repo
+(which might be problematic if working with sensitive data).
 
 {%- endif %}
 
-For baseline datasets, you might also need to sync [this](https://drive.google.com/drive/u/3/folders/1RVpnCUpxHQ-jokV_27xLRqOs6qR_8mqQ)
+For baseline datasets, you might also need to sync
+[this](https://drive.google.com/drive/u/3/folders/1RVpnCUpxHQ-jokV_27xLRqOs6qR_8mqQ)
 directory from Google drive to your local machine.
 Create an environment variable called `AA_DATA_DIR` that points to this directory.
