@@ -54,11 +54,23 @@ The code in this repository is organized as follows:
 
 ## Reproducing this analysis
 
-Create a new virtual environment and install the requirements with
+Create a directory where you would like the data to be stored,
+and point to it using an environment variable called
+`AA_DATA_DIR`.
+
+Next create a new virtual environment and install the requirements with:
 
 ```shell
 pip install -r requirements.txt
 ```
+
+Finally, install any code in `src` using the command:
+
+```shell
+pip install -e .
+```
+
+## Development
 
 All code is formatted according to black and flake8 guidelines.
 The repo is set-up to use pre-commit.
@@ -68,7 +80,8 @@ Before you start developing in this repository, you will need to run
 pre-commit install
 ```
 
-The `markdownlint` hook will require [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+The `markdownlint` hook will require
+[Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 to be installed on your computer.
 
 You can run all hooks against all your files using
@@ -86,7 +99,3 @@ cleaner diffs (and thus easier code reviews) and will ensure that cell outputs a
 committed to the repo (which might be problematic if working with sensitive data).
 
 {%- endif %}
-
-For baseline datasets, you might also need to sync [this](https://drive.google.com/drive/u/3/folders/1RVpnCUpxHQ-jokV_27xLRqOs6qR_8mqQ)
-directory from Google drive to your local machine.
-Create an environment variable called `AA_DATA_DIR` that points to this directory.
