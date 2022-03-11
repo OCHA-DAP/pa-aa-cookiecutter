@@ -16,6 +16,8 @@ pip install cookiecutter
 
 Then, generate a template from this repo:
 
+Then, generate a template from this repo:Then, generate a template from this repo:Then, generate a template from this repo:
+
 ```shell
 cookiecutter https://github.com/OCHA-DAP/pa-aa-cookiecutter
 ```
