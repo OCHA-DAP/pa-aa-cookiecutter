@@ -70,6 +70,21 @@ Finally, install any code in `src` using the command:
 pip install -e .
 ```
 
+To run the pipeline that downloads and processes the data, execute:
+
+```shell
+python src/main.py
+```
+
+To see runtime options, execute:
+
+```shell
+python src/main.py -h
+```
+
+If you would like to instead receive the processed data from our team, please
+[contact us](mailto:centrehumdata@un.org).
+
 ## Development
 
 All code is formatted according to black and flake8 guidelines.
