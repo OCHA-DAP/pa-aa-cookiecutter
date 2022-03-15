@@ -14,5 +14,9 @@ The name of this file can be changed to include a meaningful 1-3 word
 summary of the analysis - eg. `01_process_glofas.md`.
 
 ```python
+%load_ext jupyter_black
+```
+
+```python
 # Start coding!
 ```
